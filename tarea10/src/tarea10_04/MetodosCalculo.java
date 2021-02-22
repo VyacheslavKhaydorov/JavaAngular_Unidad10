@@ -29,7 +29,7 @@ public class MetodosCalculo {
 	//La division por 0 en Java solo produce una excepcion si es un int 0, en caso de
 	//un double 0.0 da como resultado infinity, así que forzamos la Exception
 	public static double division (double a, double b) {
-		if (b == 0) throw new ArithmeticException();
+		if (b == 0) throw new ArithmeticException("No se puede dividir entre 0");
 		return (a / b);
 	}
 

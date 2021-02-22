@@ -47,6 +47,6 @@ public class ExcepcionCalculadora extends Exception {
 		
 		return mensaje;
 		
-	} 
+	}
 	
 }
